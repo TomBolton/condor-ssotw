@@ -17,6 +17,4 @@ if __name__ == "__main__":
 
     groups = graph.get_object(id=GROUP_ID)
     
-    print(groups)
-    
-    #graph.put_object(GROUP_ID, "feed", message="from terminal")
+    graph.put_object(GROUP_ID, "feed", message="from terminal")
